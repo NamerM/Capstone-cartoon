@@ -1,10 +1,20 @@
-import logo from './logo.svg';
+
+import react, {useState, useEffect} from 'react';
 import './App.css';
+import Header from '../Header/Header';
+
 
 function App() {
+
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
   return (
     <div className="App">
-      <header className="App-header">
+       <Header 
+          isLoggedIn={isLoggedIn}
+       />
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +27,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

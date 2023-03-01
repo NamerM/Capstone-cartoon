@@ -1,4 +1,30 @@
-.App {
+.app {
+  max-width: 1440px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+
+/* tablet*/
+@media screen and (max-width: 768px ) {
+  .app {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px ) {
+  .app {
+    max-width: 320px;
+  }
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +61,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
