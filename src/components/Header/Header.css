@@ -6,7 +6,7 @@
 .header__nologin{
   display: flex;
   justify-items: center;
-  background-image: url('../../images/h400px-Les_Tuniqiues_Bleues.jpg');
+  background-image: url('../../images/bookshelf-nologin.png');
   background-repeat: no-repeat;
   background-color: #fff;
   background-position: center;
@@ -16,5 +16,13 @@
 }
 
 .header__login{
-
+  display: flex;
+  justify-items: center;
+  background-image: url('../../images/h400px-Les_Tuniqiues_Bleues.jpg');
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  max-width: 1440px;
+  height: 400px;
+  flex-direction: column-reverse;  
 }
