@@ -12,11 +12,11 @@
   display: flex;
   flex-direction: row;
   align-content: center;
-  margin: 0 calc(100% - 87% + 10px); /* 190px; */
+  margin: 0 calc(100% - 87% + 10px);
   padding: 0;
   margin-bottom: 5px;
   list-style: none;
-  background-color: #8a859975;
+  background-color:#49416075; /* #8a859975; */
   max-width: 1045px;
   }
   
@@ -28,7 +28,7 @@
 
   .navigation__menu-item {
     font-family: "Roboto", "Arial", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     color: #ffffff;
@@ -37,4 +37,5 @@
     margin: 0;
     cursor: pointer;
     border-right: #ffffff 2px solid;
+    /*     text-shadow: 0 0 2px black; */
   }

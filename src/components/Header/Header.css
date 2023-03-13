@@ -1,12 +1,22 @@
-.header {
+/* .header {
   margin: 0;
   padding: 0;
+} */
+
+.header{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-items: center;
+  flex-direction: column-reverse;
+  max-width: 1440px;
+  height: 400px;
 }
 
 .header__nologin{
   display: flex;
   justify-items: center;
-  background-image: url('../../images/bookshelf-nologin.png');
+  background-image: url('../../images/emptybookshelf-nologin2.png');
   background-repeat: no-repeat;
   background-color: #fff;
   background-position: center;
@@ -18,11 +28,35 @@
 .header__login{
   display: flex;
   justify-items: center;
-  background-image: url('../../images/h400px-Les_Tuniqiues_Bleues.jpg');
+  background-image: url('../../images/bookshelf-login.png');
   background-repeat: no-repeat;
   background-color: #fff;
   background-position: center;
   max-width: 1440px;
   height: 400px;
   flex-direction: column-reverse;  
+}
+
+.header__bluecoats{
+  background-image: url('../../images/h400px-Les_Tuniqiues_Bleues.jpg');
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+}
+
+.header__asterix{
+  background-image: url('../../images/h400px-asterix-the-gaul.jpg');
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  background-size: 1052 400;
+  /* margin: 0 calc(100% - 87% + 10px); */
+  /* border: 1px #282c34 solid; */
+}
+
+.header__tintin{
+  background-image: url('../../images/h400px-tintin-header.jpg');
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
 }

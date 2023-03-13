@@ -6,14 +6,14 @@ import Header from '../Header/Header';
 
 function App() {
 
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   return (
     <div className="App">
         <Header 
           isLoggedIn={isLoggedIn}
         />
-        {/* <InfoBox /> */}
+        {/* <InfoBox /> */} 
       
     </div>
   );
