@@ -1,0 +1,26 @@
+.infobox {
+  border: 2px lightgray solid;
+  background-color: lightyellow;
+  width: 1055px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px calc((1440px - 1055px)/2);
+}
+
+.infobox__content{
+  border: 1px lightgray solid;
+  display: grid;
+  grid-template-rows: repeat(3, 100px) 50px 50px;
+  grid-template-columns: repeat(3, 351px);
+}
+
+.infobox__image {
+  border: 2px black solid;
+  border-radius: 10px;
+  border-inline: solid grey 6px;
+
+  grid-area: 1 / 1 / 4 / 1;
+}
