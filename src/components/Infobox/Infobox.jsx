@@ -21,6 +21,7 @@ const isMainContent = isBlueCoats || isAsterix || isTintin;
     ( <section className="infobox">
         <div className="infobox__content">
           <img className="infobox__image" alt="image"/>
+         <p className="infobox__date"> Created : 1989</p>
         </div>
   
     </section>) :
